@@ -1,0 +1,61 @@
+
+
+.not-selectable {
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+.not-selectable:hover {
+    cursor: default;
+}
+
+.container {
+    display: grid;
+}
+
+.target-text, .input-text {
+    top: 0px;
+    left: 0px;
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+    position: absolute;
+    font-size: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+    width: 100vw;
+
+}
+
+.target-text {
+    color: rgb(105, 0, 0);
+}
+
+.input-text {
+    color: transparent;
+    text-decoration: none;
+}
+
+.correct {
+    color: green;
+    text-decoration: underline;
+}
+
+.incorrect {
+    color: red;
+    text-decoration: underline wavy;
+}
+
+
+textarea {
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+textarea:focus {
+    border: none;
+}
