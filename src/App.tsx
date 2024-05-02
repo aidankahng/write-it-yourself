@@ -34,7 +34,6 @@ function App() {
         async function getNextQuote() {
             const quote:string = await getRandomQuote();
             const docQuote: HTMLElement = document.getElementById('target-text')!;
-            console.log(docQuote.innerHTML)
             quote.split('').forEach(char => {
                 const charSpan:HTMLSpanElement = document.createElement('span');
                 charSpan.innerText = char

@@ -18,15 +18,15 @@
 }
 
 .target-text, .input-text {
-    top: 0px;
-    left: 0px;
+    top: 100px;
+    left: 10px;
     margin: 0px;
-    padding: 0px;
+    padding: 30px;
     display: inline-block;
     position: absolute;
     font-size: 2rem;
     font-family: 'Courier New', Courier, monospace;
-    width: 100vw;
+    width: 80vw;
 
 }
 
@@ -37,6 +37,10 @@
 .input-text {
     color: transparent;
     text-decoration: none;
+}
+
+.input-text:hover {
+    cursor: default;
 }
 
 .correct {
@@ -58,4 +62,9 @@ textarea {
 
 textarea:focus {
     border: none;
+}
+
+h2 {
+    text-align: center;
+    text-decoration: underline;
 }
